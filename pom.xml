@@ -70,7 +70,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <threadCountProperty>1</threadCountProperty>
-        <skipTests>false</skipTests>
+        <skipTests>true</skipTests>
         <skip.surefire.tests>${skipTests}</skip.surefire.tests>
         <skip.failsafe.setup>false</skip.failsafe.setup>
         <integrationToTest>sauceLabs</integrationToTest>
